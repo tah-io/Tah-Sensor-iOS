@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="M5B-PM-th3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller - HOME-->
+        <scene sceneID="aCb-pv-lWC">
+            <objects>
+                <viewController id="bh0-OV-oz0" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r2p-wO-eLz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="brh-yM-d1F">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000596046398" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="0wd-2g-TYK">
+                                <rect key="frame" x="700" y="29" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9WM-im-gxk">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="DT4-Dj-ij2">
+                                <rect key="frame" x="83" y="136" width="602" height="751"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sXF-a0-geL">
+                                    <size key="itemSize" width="180" height="180"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell1" id="ILV-uZ-UXA" customClass="CustomCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sonar.png" id="ee2-Vv-JbT">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="ee2-Vv-JbT" id="zTg-Qu-L7d"/>
+                                            <segue destination="OsI-bB-9jx" kind="push" identifier="Cell1" id="irg-sp-55j"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell2" id="Dra-MF-Gql" customClass="CustomCell">
+                                        <rect key="frame" x="211" y="0.0" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temp.png" id="JOS-1p-iyu">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="JOS-1p-iyu" id="EBF-bV-V5J"/>
+                                            <segue destination="v1u-Hn-y41" kind="push" identifier="Cell2" id="10O-Gh-qhe"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell3" id="jgS-5r-z4P" customClass="CustomCell">
+                                        <rect key="frame" x="422" y="0.0" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch.png" id="m63-HR-2kI">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="m63-HR-2kI" id="wtS-AM-q3i"/>
+                                            <segue destination="bgS-Nt-r5X" kind="push" identifier="Cell3" id="E94-yu-uhV"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell4" id="8RO-OX-WfU" customClass="CustomCell">
+                                        <rect key="frame" x="0.0" y="190" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light.png" id="viE-b0-Gam">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="viE-b0-Gam" id="Jnq-kO-NvO"/>
+                                            <segue destination="zDQ-Lg-XGD" kind="push" identifier="Cell4" id="QXo-lH-jbo"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell5" id="2CT-Jh-hyK" customClass="CustomCell">
+                                        <rect key="frame" x="211" y="190" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain.png" id="8ma-vk-pEp">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="8ma-vk-pEp" id="u7L-c9-SGr"/>
+                                            <segue destination="V7m-Qx-iQa" kind="push" identifier="Cell5" id="B5r-aQ-xrb"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell6" id="Xrb-EI-cDI" customClass="CustomCell">
+                                        <rect key="frame" x="422" y="190" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wind.png" id="qws-ac-Fcv">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="qws-ac-Fcv" id="EBQ-tT-Zma"/>
+                                            <segue destination="JPk-9Y-uHN" kind="push" identifier="Cell6" id="jPy-dC-QCA"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell7" id="Zux-GX-OD3" customClass="CustomCell">
+                                        <rect key="frame" x="0.0" y="380" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="motion.png" id="6Fg-Nf-Nik">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="6Fg-Nf-Nik" id="ixw-bo-8xy"/>
+                                            <segue destination="Nkv-2b-fR8" kind="push" identifier="Cell7" id="8Qa-7m-Tkd"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell8" id="ueI-DP-rny" customClass="CustomCell">
+                                        <rect key="frame" x="211" y="380" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soil.png" id="oep-Fb-CdG">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="oep-Fb-CdG" id="6gl-Ub-Af0"/>
+                                            <segue destination="uov-1S-QJG" kind="push" identifier="Cell8" id="Kbo-qv-CWI"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell9" id="tM2-Oa-EZG" customClass="CustomCell">
+                                        <rect key="frame" x="422" y="380" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share.png" id="zCC-JB-ubQ">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="zCC-JB-ubQ" id="dDw-pX-30w"/>
+                                            <segue destination="aii-kB-kVU" kind="push" identifier="Cell9" id="DEO-P4-Uta"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell10" id="8Fs-IQ-Nw8" customClass="CustomCell">
+                                        <rect key="frame" x="0.0" y="570" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youtube.png" id="rPx-Af-kZz">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="rPx-Af-kZz" id="9e7-V0-pXD"/>
+                                            <segue destination="Okk-4l-hvZ" kind="push" identifier="Cell10" id="r7z-1R-5XQ"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell11" id="540-Fy-YZ0" customClass="CustomCell">
+                                        <rect key="frame" x="211" y="570" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings.png" id="qVb-LU-LuU">
+                                                    <rect key="frame" x="5" y="5" width="170" height="170"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="myImage" destination="qVb-LU-LuU" id="HKU-tx-DyJ"/>
+                                            <segue destination="aN6-bk-saY" kind="push" identifier="Cell11" id="VJC-aV-NVh"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="23j-TV-QoM">
+                        <barButtonItem key="backBarButtonItem" title="Scanner" id="JvM-Ci-TxB"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="9WM-im-gxk" id="OtF-Kh-lnr"/>
+                        <outlet property="myCollectionView" destination="DT4-Dj-ij2" id="yd7-dK-LVp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxB-p3-OBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-504" y="-493"/>
+        </scene>
+        <!--Temperature View Controller-->
+        <scene sceneID="oTh-mh-k6g">
+            <objects>
+                <viewController id="v1u-Hn-y41" customClass="TemperatureViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1jn-dc-bJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="iQR-3k-ljn">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ncg-5N-3lz">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="gZ0-cK-t3s">
+                                <rect key="frame" x="700" y="29" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="HYB-2Q-RwW">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="112" placeholderIntrinsicHeight="112" image="flurowhite.png" id="5rX-V3-lZD">
+                                <rect key="frame" x="33" y="814" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="W8K-Oi-SOh">
+                                <rect key="frame" x="612" y="159" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0ºC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Z6-mT-XVX">
+                                <rect key="frame" x="213" y="462" width="343" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="108"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dayicon.png" id="xqG-OV-k9m">
+                                <rect key="frame" x="72" y="853" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aBl-za-P5e">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="v1u-Hn-y41" eventType="touchUpInside" id="F7b-1t-qAz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="therma.png" id="G60-OW-2oT">
+                                <rect key="frame" x="645" y="192" width="54" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="A8c-le-FsS">
+                                <rect key="frame" x="0.0" y="64" width="768" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="B8a-sr-J8C">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="A0"/>
+                                            <segment title="A1"/>
+                                            <segment title="A2"/>
+                                            <segment title="A3"/>
+                                            <segment title="A4"/>
+                                            <segment title="A5"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="OE0-RA-LwJ">
+                                        <rect key="frame" x="304" y="99" width="161" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="ºC"/>
+                                            <segment title="ºF"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dUl-rE-yKe">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance Unit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tOU-7X-Auk">
+                                        <rect key="frame" x="335" y="75" width="99" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450981740000002" green="0.63921570780000003" blue="0.64705884459999996" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bUh-dL-Dd7"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="ncg-5N-3lz" id="vUo-0k-mZU"/>
+                        <outlet property="daynightstate" destination="xqG-OV-k9m" id="HPf-XV-ZBM"/>
+                        <outlet property="sensorpinsegment" destination="B8a-sr-J8C" id="qYQ-zJ-EA7"/>
+                        <outlet property="sensorunitscalesegment" destination="OE0-RA-LwJ" id="e7t-Ir-Q9a"/>
+                        <outlet property="settings" destination="aBl-za-P5e" id="Wbx-kX-q12"/>
+                        <outlet property="settingsview" destination="A8c-le-FsS" id="WOl-yR-5lN"/>
+                        <outlet property="tempbg" destination="iQR-3k-ljn" id="ofz-Bt-P8E"/>
+                        <outlet property="temperaturelabel" destination="0Z6-mT-XVX" id="JPh-h6-KsE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q7H-To-PP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="-1886"/>
+        </scene>
+        <!--Touch View Controller-->
+        <scene sceneID="sRk-vI-CDp">
+            <objects>
+                <viewController id="bgS-Nt-r5X" customClass="TouchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x6R-sD-o5z">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="Kf6-Ez-yVF">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Chk-cr-W1g">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9GH-nn-D35">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="bgS-Nt-r5X" eventType="touchUpInside" id="wol-Pe-l1x"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="0gm-m1-ZlM">
+                                <rect key="frame" x="612" y="159" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tou.png" id="srJ-nS-j26">
+                                <rect key="frame" x="645" y="192" width="54" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t1.png" id="MDd-L5-MmQ">
+                                <rect key="frame" x="188" y="310" width="400" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="SsT-Hh-pmN">
+                                <rect key="frame" x="700" y="29" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="Paa-Mp-0FR">
+                                <rect key="frame" x="0.0" y="64" width="768" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Q64-Ww-Pc4">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="D2"/>
+                                            <segment title="D3"/>
+                                            <segment title="D4"/>
+                                            <segment title="D5"/>
+                                            <segment title="D6"/>
+                                            <segment title="D7"/>
+                                            <segment title="D8"/>
+                                            <segment title="D9"/>
+                                            <segment title="10"/>
+                                            <segment title="11"/>
+                                            <segment title="12"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H0t-Sv-4fV">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch Not Detected" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KFJ-U9-seD">
+                                <rect key="frame" x="336" y="484" width="96" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <color key="textColor" red="0.44705882349999998" green="0.74117647060000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OZg-iW-nT3"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="Chk-cr-W1g" id="pKO-aH-by2"/>
+                        <outlet property="TouchStatusLabel" destination="KFJ-U9-seD" id="qrq-zi-ycp"/>
+                        <outlet property="sensorpinsegment" destination="Q64-Ww-Pc4" id="MAK-wT-dra"/>
+                        <outlet property="settings" destination="9GH-nn-D35" id="58T-wQ-pVn"/>
+                        <outlet property="settingsview" destination="Paa-Mp-0FR" id="pyd-7u-zEA"/>
+                        <outlet property="touchcircles" destination="MDd-L5-MmQ" id="IiR-AC-JX3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZa-Ts-zod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3023" y="-1886"/>
+        </scene>
+        <!--Light View Controller-->
+        <scene sceneID="9ED-Ic-fK0">
+            <objects>
+                <viewController id="zDQ-Lg-XGD" customClass="LightViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MEY-dM-obp">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="GGS-wG-ijy">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3ab-Ye-bgl">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="oKi-oo-ad9">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4DH-Lv-yRN">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="zDQ-Lg-XGD" eventType="touchUpInside" id="vfO-PE-Q07"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="pE6-h8-tTY">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2jd-5a-ZQh">
+                                <rect key="frame" x="213" y="462" width="343" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="108"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="GHg-o7-C44">
+                                <rect key="frame" x="617" y="98" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lig.png" id="Tyi-pk-FLZ">
+                                <rect key="frame" x="652" y="128" width="49" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="MBC-SO-RIa">
+                                <rect key="frame" x="0.0" y="64" width="768" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="2ql-Jk-o3B">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="A0"/>
+                                            <segment title="A1"/>
+                                            <segment title="A2"/>
+                                            <segment title="A3"/>
+                                            <segment title="A4"/>
+                                            <segment title="A5"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oB3-P0-62c">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Yn-Cc-0oX"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="3ab-Ye-bgl" id="uMB-p1-lzO"/>
+                        <outlet property="lightlevellabel" destination="2jd-5a-ZQh" id="sXN-Ow-Qdl"/>
+                        <outlet property="sensorpinsegment" destination="2ql-Jk-o3B" id="RVO-fG-HiC"/>
+                        <outlet property="settings" destination="4DH-Lv-yRN" id="yWo-9k-x1u"/>
+                        <outlet property="settingsview" destination="MBC-SO-RIa" id="t5E-cI-s1S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfj-I2-o21" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040" y="-560"/>
+        </scene>
+        <!--Motion View Controller-->
+        <scene sceneID="PMc-xR-O9m">
+            <objects>
+                <viewController id="Nkv-2b-fR8" customClass="MotionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ues-EI-vJd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="xtZ-Pb-vb1">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ode-87-Zuf">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="yer-f8-aRR">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oh6-Lx-aV6">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="Nkv-2b-fR8" eventType="touchUpInside" id="TiB-yj-sTz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="MXt-6n-WIH">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Motion " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qg4-om-RsT">
+                                <rect key="frame" x="298" y="457" width="173" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="Fos-ku-i1T">
+                                <rect key="frame" x="617" y="98" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mot.png" id="UW4-IZ-sS5">
+                                <rect key="frame" x="645" y="131" width="60" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="r1l-yc-zmq">
+                                <rect key="frame" x="0.0" y="64" width="768" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="gHu-tV-B1n">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="D2"/>
+                                            <segment title="D3"/>
+                                            <segment title="D4"/>
+                                            <segment title="D5"/>
+                                            <segment title="D6"/>
+                                            <segment title="D7"/>
+                                            <segment title="D8"/>
+                                            <segment title="D9"/>
+                                            <segment title="10"/>
+                                            <segment title="11"/>
+                                            <segment title="12"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H7q-pJ-ff0">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ouh-jn-T3D"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="ode-87-Zuf" id="beA-Fh-slL"/>
+                        <outlet property="MotionStatusLabel" destination="qg4-om-RsT" id="BCp-xZ-XPq"/>
+                        <outlet property="sensorpinsegment" destination="gHu-tV-B1n" id="eo9-Co-KMR"/>
+                        <outlet property="settings" destination="Oh6-Lx-aV6" id="RCS-5g-1Hm"/>
+                        <outlet property="settingsview" destination="r1l-yc-zmq" id="C4R-8A-jFt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8W7-Oh-dh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040" y="722"/>
+        </scene>
+        <!--Soil Moisture View Controller-->
+        <scene sceneID="mLr-Rf-fLu">
+            <objects>
+                <viewController id="uov-1S-QJG" customClass="SoilMoistureViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LaB-Yd-Osq">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="Sma-gB-eM7">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bbL-IS-gls">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="BTq-Wf-c3o">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dGZ-1b-zng">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="uov-1S-QJG" eventType="touchUpInside" id="3Ql-WF-QIu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="t0y-Z1-J5d">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iat-59-72v">
+                                <rect key="frame" x="213" y="462" width="343" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="108"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="eN5-7O-9vr">
+                                <rect key="frame" x="617" y="98" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soilsmall.png" id="NDq-0L-IKg">
+                                <rect key="frame" x="644" y="133" width="66" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="3pb-AJ-ei5">
+                                <rect key="frame" x="0.0" y="64" width="768" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="M7p-4g-lIG">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="A0"/>
+                                            <segment title="A1"/>
+                                            <segment title="A2"/>
+                                            <segment title="A3"/>
+                                            <segment title="A4"/>
+                                            <segment title="A5"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cMf-fk-1Zf">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dNV-Eo-ndF"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="bbL-IS-gls" id="N3X-vY-tZR"/>
+                        <outlet property="moisturelabel" destination="iat-59-72v" id="mM6-AO-BqD"/>
+                        <outlet property="sensorpinsegment" destination="M7p-4g-lIG" id="lYH-8o-oLr"/>
+                        <outlet property="settings" destination="dGZ-1b-zng" id="rNC-Ih-GeC"/>
+                        <outlet property="settingsview" destination="3pb-AJ-ei5" id="iAL-1k-OLU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Bd-gL-a2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="722"/>
+        </scene>
+        <!--Rain View Controller-->
+        <scene sceneID="Zk1-1E-PTB">
+            <objects>
+                <viewController id="V7m-Qx-iQa" customClass="RainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p1P-9N-zUA">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="wcZ-iw-ybi">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JTQ-Ob-xqb">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="A6r-8C-Jdo">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Atv-oQ-iTf">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="V7m-Qx-iQa" eventType="touchUpInside" id="yeZ-td-lod"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="w0k-TH-9an">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="Z3n-Z5-XlB">
+                                <rect key="frame" x="617" y="98" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rainstoppedsmall.png" id="ta2-Xn-b4Z">
+                                <rect key="frame" x="645" y="133" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raining Stopped" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Bi-EA-jIu">
+                                <rect key="frame" x="274" y="406" width="220" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="46"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="fuZ-Xe-haq">
+                                <rect key="frame" x="0.0" y="64" width="768" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="ohh-f4-u9q">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="A0"/>
+                                            <segment title="A1"/>
+                                            <segment title="A2"/>
+                                            <segment title="A3"/>
+                                            <segment title="A4"/>
+                                            <segment title="A5"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKO-gg-Ihf">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VIv-6a-4LU"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="JTQ-Ob-xqb" id="c8L-sV-JfB"/>
+                        <outlet property="cloud" destination="ta2-Xn-b4Z" id="3mN-qV-Dpd"/>
+                        <outlet property="rainstatuslabel" destination="5Bi-EA-jIu" id="ESv-4v-87y"/>
+                        <outlet property="sensorpinsegment" destination="ohh-f4-u9q" id="ydY-3f-m5c"/>
+                        <outlet property="settings" destination="Atv-oQ-iTf" id="5jj-uG-Zzj"/>
+                        <outlet property="settingsview" destination="fuZ-Xe-haq" id="pVI-rd-dHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvb-cV-SAE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="-560"/>
+        </scene>
+        <!--Wind View Controller-->
+        <scene sceneID="zXv-Q0-Nft">
+            <objects>
+                <viewController id="JPk-9Y-uHN" customClass="WindViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cgd-GK-WRo">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="LVO-Zs-628">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5GI-kb-ai4">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah.png" id="NtC-Kh-aMD">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CYJ-Yc-c2c">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="JPk-9Y-uHN" eventType="touchUpInside" id="QhF-7o-LXF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="ml0-Zp-2wz">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="km/hr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RIY-yS-7i4">
+                                <rect key="frame" x="323" y="616" width="123" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wZg-D3-a8j">
+                                <rect key="frame" x="213" y="462" width="343" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="108"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="qhs-cT-u8n">
+                                <rect key="frame" x="617" y="98" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windsmall.png" id="7Vk-bJ-KXl">
+                                <rect key="frame" x="657" y="129" width="46" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="kVI-gZ-fOa">
+                                <rect key="frame" x="0.0" y="64" width="768" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="nPL-Cc-fXS">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="A0"/>
+                                            <segment title="A1"/>
+                                            <segment title="A2"/>
+                                            <segment title="A3"/>
+                                            <segment title="A4"/>
+                                            <segment title="A5"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="xAd-lU-E9F">
+                                        <rect key="frame" x="304" y="99" width="161" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="km/hr"/>
+                                            <segment title="m/s"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Ph-9z-o6y">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance Unit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QAZ-dr-eUm">
+                                        <rect key="frame" x="335" y="75" width="99" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zYZ-En-lVY"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="5GI-kb-ai4" id="eld-t7-Q64"/>
+                        <outlet property="sensorpinsegment" destination="nPL-Cc-fXS" id="WJ3-ey-HEB"/>
+                        <outlet property="sensorunitscalesegment" destination="xAd-lU-E9F" id="pBI-V5-czT"/>
+                        <outlet property="settings" destination="CYJ-Yc-c2c" id="9yo-89-LzG"/>
+                        <outlet property="settingsview" destination="kVI-gZ-fOa" id="lGQ-r7-gPZ"/>
+                        <outlet property="windspeedlabel" destination="wZg-D3-a8j" id="O0r-OB-ixa"/>
+                        <outlet property="windspeedunitlabel" destination="RIY-yS-7i4" id="teC-OZ-NHt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4kP-Jc-vyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3023" y="-560"/>
+        </scene>
+        <!--Sonar View Controller-->
+        <scene sceneID="L10-bN-5nF">
+            <objects>
+                <viewController id="OsI-bB-9jx" customClass="SonarViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SnA-13-nNe">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="6X5-0s-ARB">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6fG-cX-mfy">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="2nZ-0h-kE7">
+                                <rect key="frame" x="700" y="29" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="60" image="flurowhite.png" id="RZW-NA-v8B">
+                                <rect key="frame" x="612" y="159" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="5zB-Ui-Ur8">
+                                <rect key="frame" x="135" y="263" width="500" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cms" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IXf-Mf-7xj">
+                                <rect key="frame" x="324" y="601" width="120" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="29"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NiF-BP-awR">
+                                <rect key="frame" x="213" y="462" width="343" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="108"/>
+                                <color key="textColor" red="0.44705885649999999" green="0.74117648599999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flurowhite.png" id="cFa-76-4xr">
+                                <rect key="frame" x="61" y="880" width="277" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man.png" id="iOK-vy-irx">
+                                <rect key="frame" x="83" y="796" width="55" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="distance.png" id="lkF-op-fjX">
+                                <rect key="frame" x="109" y="853" width="165" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wall.png" id="heI-CC-hdG">
+                                <rect key="frame" x="263" y="816" width="33" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.94999998807907104" contentMode="scaleToFill" id="1Sq-eT-Zb7">
+                                <rect key="frame" x="0.0" y="64" width="768" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="5iH-cl-ZEI">
+                                        <rect key="frame" x="134" y="36" width="500" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="D2"/>
+                                            <segment title="D3"/>
+                                            <segment title="D4"/>
+                                            <segment title="D5"/>
+                                            <segment title="D6"/>
+                                            <segment title="D7"/>
+                                            <segment title="D8"/>
+                                            <segment title="D9"/>
+                                            <segment title="10"/>
+                                            <segment title="11"/>
+                                            <segment title="12"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="ANw-7n-Ymt">
+                                        <rect key="frame" x="254" y="99" width="260" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="Cms"/>
+                                            <segment title="Inch"/>
+                                            <segment title="Fts"/>
+                                            <segment title="Mtr"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Sensor Pin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qie-Fp-KVp">
+                                        <rect key="frame" x="317" y="12" width="135" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance Unit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MDT-wx-rZL">
+                                        <rect key="frame" x="335" y="75" width="99" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.43529411759999997" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J84-Ns-DI4">
+                                <rect key="frame" x="637" y="880" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="set.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settings:" destination="OsI-bB-9jx" eventType="touchUpInside" id="1ul-8c-4H4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="son.png" id="Dmw-CJ-Buj">
+                                <rect key="frame" x="645" y="201" width="56" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450981740000002" green="0.63921570780000003" blue="0.64705884459999996" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6xb-uA-y3w"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="6fG-cX-mfy" id="dZx-b2-22i"/>
+                        <outlet property="distancelabel" destination="NiF-BP-awR" id="TYQ-3c-1tS"/>
+                        <outlet property="distanceunitlabel" destination="IXf-Mf-7xj" id="fwT-Io-MuH"/>
+                        <outlet property="sensorpinsegment" destination="5iH-cl-ZEI" id="Y2U-Iz-Esh"/>
+                        <outlet property="sensorunitscalesegment" destination="ANw-7n-Ymt" id="me7-dL-PvE"/>
+                        <outlet property="settings" destination="J84-Ns-DI4" id="qFq-ec-x7P"/>
+                        <outlet property="settingsview" destination="1Sq-eT-Zb7" id="vJn-7y-vad"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWI-vk-HL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040" y="-1886"/>
+        </scene>
+        <!--Hble Table Controller - TAH Scanner-->
+        <scene sceneID="r2m-xJ-JiR">
+            <objects>
+                <viewController id="1av-Zv-Rxr" customClass="TAHbleTableController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LpV-bA-3C5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="HyI-Tf-rmP">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devices Found" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="26U-MR-HqK">
+                                <rect key="frame" x="334" y="152" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RDK-Tk-Ti8">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Th-tg-GNH">
+                                <rect key="frame" x="0.0" y="917" width="768" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" red="0.058823529409999999" green="0.5450980392" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanTAHDevices:" destination="1av-Zv-Rxr" eventType="touchUpInside" id="AXZ-EY-BhM"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="sjg-8d-YUm">
+                                <rect key="frame" x="0.0" y="228" width="768" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.17000000000000001" colorSpace="calibratedRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="1av-Zv-Rxr" id="gh9-xy-Ix2"/>
+                                    <outlet property="delegate" destination="1av-Zv-Rxr" id="aqS-Qp-f0e"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TAH Scanner" id="4QB-P5-jjP">
+                        <barButtonItem key="rightBarButtonItem" id="1r4-cd-2lL">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rII-Pa-tGn">
+                                <rect key="frame" x="722" y="7" width="30" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="home.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="home:" destination="1av-Zv-Rxr" eventType="touchUpInside" id="LCX-UK-7JD"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="RDK-Tk-Ti8" id="tpO-kd-Urc"/>
+                        <outlet property="Scan" destination="7Th-tg-GNH" id="Y2f-Qj-D2W"/>
+                        <outlet property="TAHTableView" destination="sjg-8d-YUm" id="qNh-el-fii"/>
+                        <outlet property="home" destination="rII-Pa-tGn" id="jRA-Dw-hT1"/>
+                        <segue destination="bh0-OV-oz0" kind="push" identifier="home" id="qzA-tH-wWP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzp-A6-dIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1522" y="-483"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UMr-oS-cGT">
+            <objects>
+                <navigationController id="M5B-PM-th3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lbv-rs-G95">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1av-Zv-Rxr" kind="relationship" relationship="rootViewController" id="sDm-yJ-5lU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pxf-mK-da0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2425" y="-493"/>
+        </scene>
+        <!--Media View Controller-->
+        <scene sceneID="eQD-yR-S2u">
+            <objects>
+                <viewController id="Okk-4l-hvZ" customClass="MediaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZA-5Q-Y8e">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="JrL-hU-IAd">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="G8m-rx-KCd">
+                                <rect key="frame" x="0.0" y="66" width="768" height="899"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.68235296010000002" blue="0.93725496529999996" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Okk-4l-hvZ" id="lT4-RY-OcN"/>
+                                </connections>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HVs-Zu-fC3">
+                                <rect key="frame" x="314" y="973" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="web backward.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack" destination="G8m-rx-KCd" eventType="touchUpInside" id="Zru-bk-Qti"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2Gf-Cx-iwe">
+                                <rect key="frame" x="368" y="973" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="reload.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reload" destination="G8m-rx-KCd" eventType="touchUpInside" id="KNO-Wg-lt9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FtT-mb-4cS">
+                                <rect key="frame" x="424" y="973" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="web forward.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goForward" destination="G8m-rx-KCd" eventType="touchUpInside" id="dOF-bh-2dI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VxO-2t-wAI">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="jo3-0e-jC2">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" id="JXe-B5-dcP">
+                                <rect key="frame" x="691" y="978" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nW7-O6-ND7"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="VxO-2t-wAI" id="pJu-dD-xcH"/>
+                        <outlet property="activityind" destination="JXe-B5-dcP" id="yX1-50-ww8"/>
+                        <outlet property="webView" destination="G8m-rx-KCd" id="dzO-vO-YXu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uab-gI-jO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1529" y="2023"/>
+        </scene>
+        <!--Settings View Controller - SETTINGS-->
+        <scene sceneID="aV3-C3-Pen">
+            <objects>
+                <viewController id="aN6-bk-saY" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t4e-lQ-n1K">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="sA7-Ka-xWX">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zXW-2I-SA3">
+                                <rect key="frame" x="353" y="981" width="68" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Change Device Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" id="LbB-CW-Ru0">
+                                <rect key="frame" x="239" y="278" width="300" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.44705882349999998" green="0.74117647060000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="aN6-bk-saY" id="YzN-OG-VnR"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Change Device Name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" id="kPa-IO-So6">
+                                <rect key="frame" x="239" y="214" width="300" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.44705882349999998" green="0.74117647060000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="aN6-bk-saY" id="aZz-5t-3An"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cj6-y4-xVc">
+                                <rect key="frame" x="0.0" y="917" width="768" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Update">
+                                    <color key="titleColor" red="0.21568629149999999" green="0.56078433989999998" blue="0.66666668650000005" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ApplySettings:" destination="aN6-bk-saY" eventType="touchUpInside" id="qhm-dF-cpy"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="4bb-L4-fHM">
+                                <rect key="frame" x="240" y="344" width="300" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="OPEN"/>
+                                    <segment title="SECURED"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="SecuritySetting:" destination="aN6-bk-saY" eventType="valueChanged" id="XfC-bb-tNN"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="APw-Ay-bsf">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="qt8-ld-Akw">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SETTINGS" id="pdn-Uc-hsZ"/>
+                    <connections>
+                        <outlet property="ApplySettings" destination="cj6-y4-xVc" id="R2Y-fD-bF3"/>
+                        <outlet property="ConnectionStatusLabel" destination="APw-Ay-bsf" id="qmx-WB-TMp"/>
+                        <outlet property="SecuritySetting" destination="4bb-L4-fHM" id="cpK-Cv-Rvl"/>
+                        <outlet property="requiredName" destination="kPa-IO-So6" id="Tlp-bH-Wqi"/>
+                        <outlet property="requiredPassword" destination="LbB-CW-Ru0" id="Klq-pm-ki3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DgO-ub-tun" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2552" y="2023"/>
+        </scene>
+        <!--Social View Controller-->
+        <scene sceneID="77X-3T-BZw">
+            <objects>
+                <viewController id="aii-kB-kVU" customClass="SocialViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9PD-PS-XXg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day.png" id="tic-6T-4b8">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CZ9-eK-1Gg">
+                                <rect key="frame" x="0.0" y="1008" width="768" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tah rabbit.png" id="9Cc-dN-igX">
+                                <rect key="frame" x="701" y="30" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="821-yP-rPz">
+                                <rect key="frame" x="222" y="452" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="fb.png"/>
+                                <connections>
+                                    <action selector="fbpost:" destination="aii-kB-kVU" eventType="touchUpInside" id="Gmo-nh-Mzp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="uC6-mT-RCw">
+                                <rect key="frame" x="426" y="452" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="twitter.png"/>
+                                <connections>
+                                    <action selector="tweetpost:" destination="aii-kB-kVU" eventType="touchUpInside" id="3qg-Qc-1jd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like and Follow us on Facebook and Twitter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RGH-Q1-Cae">
+                                <rect key="frame" x="302" y="639" width="165" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tah.io" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kOw-Tt-vLU">
+                                <rect key="frame" x="359" y="940" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Kv-e2-uAD"/>
+                    <connections>
+                        <outlet property="ConnectionStatusLabel" destination="CZ9-eK-1Gg" id="Ee8-5H-r99"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPq-DW-h2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3023" y="722"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="day.png" width="640" height="1136"/>
+        <image name="dayicon.png" width="100" height="100"/>
+        <image name="distance.png" width="124" height="19"/>
+        <image name="fb.png" width="181" height="180"/>
+        <image name="flurowhite.png" width="458" height="458"/>
+        <image name="home.png" width="40" height="38"/>
+        <image name="lig.png" width="116" height="159"/>
+        <image name="light.png" width="260" height="260"/>
+        <image name="man.png" width="239" height="454"/>
+        <image name="mot.png" width="155" height="130"/>
+        <image name="motion.png" width="260" height="260"/>
+        <image name="rain.png" width="260" height="260"/>
+        <image name="rainstoppedsmall.png" width="155" height="155"/>
+        <image name="reload.png" width="50" height="50"/>
+        <image name="set.png" width="256" height="256"/>
+        <image name="settings.png" width="260" height="260"/>
+        <image name="share.png" width="260" height="260"/>
+        <image name="soil.png" width="260" height="260"/>
+        <image name="soilsmall.png" width="181" height="123"/>
+        <image name="son.png" width="156" height="113"/>
+        <image name="sonar.png" width="260" height="260"/>
+        <image name="t1.png" width="500" height="500"/>
+        <image name="tah rabbit.png" width="100" height="100"/>
+        <image name="tah.png" width="100" height="100"/>
+        <image name="temp.png" width="260" height="260"/>
+        <image name="therma.png" width="139" height="139"/>
+        <image name="tou.png" width="161" height="147"/>
+        <image name="touch.png" width="260" height="260"/>
+        <image name="twitter.png" width="181" height="181"/>
+        <image name="wall.png" width="220" height="449"/>
+        <image name="web backward.png" width="50" height="50"/>
+        <image name="web forward.png" width="50" height="50"/>
+        <image name="wind.png" width="260" height="260"/>
+        <image name="windsmall.png" width="132" height="161"/>
+        <image name="youtube.png" width="260" height="260"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

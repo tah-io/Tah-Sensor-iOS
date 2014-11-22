@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15013A1F1937005600A1EA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A1E1937005600A1EA7B /* Foundation.framework */; };
+		15013A211937005600A1EA7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A201937005600A1EA7B /* CoreGraphics.framework */; };
+		15013A231937005600A1EA7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A221937005600A1EA7B /* UIKit.framework */; };
+		15013A291937005600A1EA7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15013A271937005600A1EA7B /* InfoPlist.strings */; };
+		15013A2B1937005600A1EA7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15013A2A1937005600A1EA7B /* main.m */; };
+		15013A2F1937005600A1EA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15013A2E1937005600A1EA7B /* AppDelegate.m */; };
+		15013A351937005600A1EA7B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15013A331937005600A1EA7B /* Main_iPad.storyboard */; };
+		15013A3A1937005600A1EA7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15013A391937005600A1EA7B /* Images.xcassets */; };
+		15013A411937005600A1EA7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A401937005600A1EA7B /* XCTest.framework */; };
+		15013A421937005600A1EA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A1E1937005600A1EA7B /* Foundation.framework */; };
+		15013A431937005600A1EA7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15013A221937005600A1EA7B /* UIKit.framework */; };
+		15013A4B1937005600A1EA7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15013A491937005600A1EA7B /* InfoPlist.strings */; };
+		15013A4D1937005600A1EA7B /* TAH_SensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15013A4C1937005600A1EA7B /* TAH_SensorTests.m */; };
+		151DFE0719A4B77D00996EAE /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 151DFE0619A4B77D00996EAE /* set.png */; };
+		1522C82719A6003E00ABAC1C /* rainsmall 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1522C82319A6003E00ABAC1C /* rainsmall 3.png */; };
+		1522C82819A6003E00ABAC1C /* rainstoppedsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1522C82419A6003E00ABAC1C /* rainstoppedsmall.png */; };
+		1522C82919A6003E00ABAC1C /* rainsmall 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1522C82519A6003E00ABAC1C /* rainsmall 2.png */; };
+		1522C82A19A6003E00ABAC1C /* rainsmall 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1522C82619A6003E00ABAC1C /* rainsmall 1.png */; };
+		152D9CB819AC9D5600AAAA8D /* Main_iPhone3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152D9CB719AC9D5600AAAA8D /* Main_iPhone3.5.storyboard */; };
+		152D9CBA19ACA8AB00AAAA8D /* tah rabbit small.png in Resources */ = {isa = PBXBuildFile; fileRef = 152D9CB919ACA8AB00AAAA8D /* tah rabbit small.png */; };
+		1535F8FB195847B7007DD1A5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1535F8FA195847B7007DD1A5 /* Main_iPhone.storyboard */; };
+		1535F92819584809007DD1A5 /* dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1535F8FD19584809007DD1A5 /* dark.jpg */; };
+		1535F92919584809007DD1A5 /* soilsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F8FE19584809007DD1A5 /* soilsmall.png */; };
+		1535F92A19584809007DD1A5 /* windsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F8FF19584809007DD1A5 /* windsmall.png */; };
+		1535F92B19584809007DD1A5 /* rainsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90019584809007DD1A5 /* rainsmall.png */; };
+		1535F92C19584809007DD1A5 /* lig.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90119584809007DD1A5 /* lig.png */; };
+		1535F92D19584809007DD1A5 /* tou.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90219584809007DD1A5 /* tou.png */; };
+		1535F92E19584809007DD1A5 /* mot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90319584809007DD1A5 /* mot.png */; };
+		1535F92F19584809007DD1A5 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90419584809007DD1A5 /* t3.png */; };
+		1535F93019584809007DD1A5 /* t4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90519584809007DD1A5 /* t4.png */; };
+		1535F93119584809007DD1A5 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90619584809007DD1A5 /* t2.png */; };
+		1535F93219584809007DD1A5 /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90719584809007DD1A5 /* t1.png */; };
+		1535F93319584809007DD1A5 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90819584809007DD1A5 /* wall.png */; };
+		1535F93419584809007DD1A5 /* distance.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90919584809007DD1A5 /* distance.png */; };
+		1535F93519584809007DD1A5 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90A19584809007DD1A5 /* man.png */; };
+		1535F93619584809007DD1A5 /* son.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90B19584809007DD1A5 /* son.png */; };
+		1535F93719584809007DD1A5 /* flurowhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90C19584809007DD1A5 /* flurowhite.png */; };
+		1535F93819584809007DD1A5 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90D19584809007DD1A5 /* drop.png */; };
+		1535F93919584809007DD1A5 /* therma.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90E19584809007DD1A5 /* therma.png */; };
+		1535F93A19584809007DD1A5 /* flurowhite3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F90F19584809007DD1A5 /* flurowhite3.png */; };
+		1535F93B19584809007DD1A5 /* flurowhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91019584809007DD1A5 /* flurowhite2.png */; };
+		1535F93D19584809007DD1A5 /* nighticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91219584809007DD1A5 /* nighticon.png */; };
+		1535F93E19584809007DD1A5 /* dayicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91319584809007DD1A5 /* dayicon.png */; };
+		1535F93F19584809007DD1A5 /* night.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91419584809007DD1A5 /* night.png */; };
+		1535F94019584809007DD1A5 /* day.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91519584809007DD1A5 /* day.png */; };
+		1535F94119584809007DD1A5 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91619584809007DD1A5 /* rain.png */; };
+		1535F94219584809007DD1A5 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91719584809007DD1A5 /* wind.png */; };
+		1535F94319584809007DD1A5 /* soil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91819584809007DD1A5 /* soil.png */; };
+		1535F94419584809007DD1A5 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91919584809007DD1A5 /* light.png */; };
+		1535F94519584809007DD1A5 /* touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91A19584809007DD1A5 /* touch.png */; };
+		1535F94619584809007DD1A5 /* motion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91B19584809007DD1A5 /* motion.png */; };
+		1535F94719584809007DD1A5 /* sonar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91C19584809007DD1A5 /* sonar.png */; };
+		1535F94819584809007DD1A5 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91D19584809007DD1A5 /* temp.png */; };
+		1535F94919584809007DD1A5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F91E19584809007DD1A5 /* menu.png */; };
+		1535F94E19584809007DD1A5 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F92319584809007DD1A5 /* mail.png */; };
+		1535F95219584809007DD1A5 /* tah.png in Resources */ = {isa = PBXBuildFile; fileRef = 1535F92719584809007DD1A5 /* tah.png */; };
+		1535F9681958499B007DD1A5 /* SoilMoistureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F9671958499B007DD1A5 /* SoilMoistureViewController.m */; };
+		1535F96B195849AE007DD1A5 /* MotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F96A195849AE007DD1A5 /* MotionViewController.m */; };
+		1535F96E195849B9007DD1A5 /* WindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F96D195849B9007DD1A5 /* WindViewController.m */; };
+		1535F971195849BF007DD1A5 /* RainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F970195849BF007DD1A5 /* RainViewController.m */; };
+		1535F974195849CC007DD1A5 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F973195849CC007DD1A5 /* TouchViewController.m */; };
+		1535F977195849D2007DD1A5 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F976195849D2007DD1A5 /* LightViewController.m */; };
+		1535F97A195849DC007DD1A5 /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F979195849DC007DD1A5 /* TemperatureViewController.m */; };
+		1535F97D195849E1007DD1A5 /* SonarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F97C195849E1007DD1A5 /* SonarViewController.m */; };
+		1535F981195849F6007DD1A5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535F980195849F6007DD1A5 /* CustomCell.m */; };
+		15417DA219ADD6B00006CA5E /* tah rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 15417DA119ADD6B00006CA5E /* tah rabbit.png */; };
+		154307AD19A32139008A079C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 154307AC19A32139008A079C /* home.png */; };
+		154480B019A7051E00A881AB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 154480AF19A7051E00A881AB /* share.png */; };
+		154480B319A7064800A881AB /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 154480B119A7064800A881AB /* fb.png */; };
+		154480B419A7064800A881AB /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 154480B219A7064800A881AB /* twitter.png */; };
+		154480B819A7066D00A881AB /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154480B719A7066D00A881AB /* SocialViewController.m */; };
+		1551F0C21967BA6F00384077 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1551F0C11967BA6F00384077 /* HomeViewController.m */; };
+		1565B73B19AD04EE00B18B0A /* web forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565B73819AD04EE00B18B0A /* web forward.png */; };
+		1565B73C19AD04EE00B18B0A /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565B73919AD04EE00B18B0A /* reload.png */; };
+		1565B73D19AD04EE00B18B0A /* web backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565B73A19AD04EE00B18B0A /* web backward.png */; };
+		1566EB6319683D7C002A5CD4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1566EB6219683D7C002A5CD4 /* AudioToolbox.framework */; };
+		1566EB6619685233002A5CD4 /* TAHble.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566EB6519685233002A5CD4 /* TAHble.m */; };
+		1599E444195850F80059DC2B /* TAHbleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1599E443195850F80059DC2B /* TAHbleTableController.m */; };
+		15B1A37319A673B000D9D426 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B1A37119A673B000D9D426 /* settings.png */; };
+		15B1A37419A673B000D9D426 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B1A37219A673B000D9D426 /* youtube.png */; };
+		15B1A37919A674D200D9D426 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1A37819A674D200D9D426 /* SettingsViewController.m */; };
+		15B1A37C19A674DA00D9D426 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1A37B19A674DA00D9D426 /* MediaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15013A441937005600A1EA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15013A131937005600A1EA7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15013A1A1937005600A1EA7B;
+			remoteInfo = "TAH Sensor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15013A1B1937005600A1EA7B /* TAH Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TAH Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15013A1E1937005600A1EA7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15013A201937005600A1EA7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15013A221937005600A1EA7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15013A261937005600A1EA7B /* TAH Sensor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAH Sensor-Info.plist"; sourceTree = "<group>"; };
+		15013A281937005600A1EA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15013A2A1937005600A1EA7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15013A2C1937005600A1EA7B /* TAH Sensor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAH Sensor-Prefix.pch"; sourceTree = "<group>"; };
+		15013A2D1937005600A1EA7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15013A2E1937005600A1EA7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15013A341937005600A1EA7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		15013A391937005600A1EA7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAH SensorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15013A401937005600A1EA7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		15013A481937005600A1EA7B /* TAH SensorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAH SensorTests-Info.plist"; sourceTree = "<group>"; };
+		15013A4A1937005600A1EA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15013A4C1937005600A1EA7B /* TAH_SensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAH_SensorTests.m; sourceTree = "<group>"; };
+		151DFE0619A4B77D00996EAE /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		1522C82319A6003E00ABAC1C /* rainsmall 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainsmall 3.png"; sourceTree = "<group>"; };
+		1522C82419A6003E00ABAC1C /* rainstoppedsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainstoppedsmall.png; sourceTree = "<group>"; };
+		1522C82519A6003E00ABAC1C /* rainsmall 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainsmall 2.png"; sourceTree = "<group>"; };
+		1522C82619A6003E00ABAC1C /* rainsmall 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainsmall 1.png"; sourceTree = "<group>"; };
+		152D9CB719AC9D5600AAAA8D /* Main_iPhone3.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone3.5.storyboard; path = ../Main_iPhone3.5.storyboard; sourceTree = "<group>"; };
+		152D9CB919ACA8AB00AAAA8D /* tah rabbit small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tah rabbit small.png"; sourceTree = "<group>"; };
+		1535F8FA195847B7007DD1A5 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1535F8FD19584809007DD1A5 /* dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dark.jpg; sourceTree = "<group>"; };
+		1535F8FE19584809007DD1A5 /* soilsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soilsmall.png; sourceTree = "<group>"; };
+		1535F8FF19584809007DD1A5 /* windsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windsmall.png; sourceTree = "<group>"; };
+		1535F90019584809007DD1A5 /* rainsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainsmall.png; sourceTree = "<group>"; };
+		1535F90119584809007DD1A5 /* lig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lig.png; sourceTree = "<group>"; };
+		1535F90219584809007DD1A5 /* tou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tou.png; sourceTree = "<group>"; };
+		1535F90319584809007DD1A5 /* mot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mot.png; sourceTree = "<group>"; };
+		1535F90419584809007DD1A5 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t3.png; sourceTree = "<group>"; };
+		1535F90519584809007DD1A5 /* t4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t4.png; sourceTree = "<group>"; };
+		1535F90619584809007DD1A5 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t2.png; sourceTree = "<group>"; };
+		1535F90719584809007DD1A5 /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1.png; sourceTree = "<group>"; };
+		1535F90819584809007DD1A5 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		1535F90919584809007DD1A5 /* distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distance.png; sourceTree = "<group>"; };
+		1535F90A19584809007DD1A5 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		1535F90B19584809007DD1A5 /* son.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = son.png; sourceTree = "<group>"; };
+		1535F90C19584809007DD1A5 /* flurowhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flurowhite.png; sourceTree = "<group>"; };
+		1535F90D19584809007DD1A5 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		1535F90E19584809007DD1A5 /* therma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = therma.png; sourceTree = "<group>"; };
+		1535F90F19584809007DD1A5 /* flurowhite3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flurowhite3.png; sourceTree = "<group>"; };
+		1535F91019584809007DD1A5 /* flurowhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flurowhite2.png; sourceTree = "<group>"; };
+		1535F91219584809007DD1A5 /* nighticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nighticon.png; sourceTree = "<group>"; };
+		1535F91319584809007DD1A5 /* dayicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayicon.png; sourceTree = "<group>"; };
+		1535F91419584809007DD1A5 /* night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night.png; sourceTree = "<group>"; };
+		1535F91519584809007DD1A5 /* day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day.png; sourceTree = "<group>"; };
+		1535F91619584809007DD1A5 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		1535F91719584809007DD1A5 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		1535F91819584809007DD1A5 /* soil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soil.png; sourceTree = "<group>"; };
+		1535F91919584809007DD1A5 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		1535F91A19584809007DD1A5 /* touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch.png; sourceTree = "<group>"; };
+		1535F91B19584809007DD1A5 /* motion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motion.png; sourceTree = "<group>"; };
+		1535F91C19584809007DD1A5 /* sonar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonar.png; sourceTree = "<group>"; };
+		1535F91D19584809007DD1A5 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+		1535F91E19584809007DD1A5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1535F92319584809007DD1A5 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		1535F92719584809007DD1A5 /* tah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tah.png; sourceTree = "<group>"; };
+		1535F9661958499B007DD1A5 /* SoilMoistureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoilMoistureViewController.h; sourceTree = "<group>"; };
+		1535F9671958499B007DD1A5 /* SoilMoistureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoilMoistureViewController.m; sourceTree = "<group>"; };
+		1535F969195849AE007DD1A5 /* MotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionViewController.h; sourceTree = "<group>"; };
+		1535F96A195849AE007DD1A5 /* MotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionViewController.m; sourceTree = "<group>"; };
+		1535F96C195849B9007DD1A5 /* WindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindViewController.h; sourceTree = "<group>"; };
+		1535F96D195849B9007DD1A5 /* WindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindViewController.m; sourceTree = "<group>"; };
+		1535F96F195849BF007DD1A5 /* RainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainViewController.h; sourceTree = "<group>"; };
+		1535F970195849BF007DD1A5 /* RainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainViewController.m; sourceTree = "<group>"; };
+		1535F972195849CC007DD1A5 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		1535F973195849CC007DD1A5 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		1535F975195849D2007DD1A5 /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		1535F976195849D2007DD1A5 /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		1535F978195849DC007DD1A5 /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		1535F979195849DC007DD1A5 /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		1535F97B195849E1007DD1A5 /* SonarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonarViewController.h; sourceTree = "<group>"; };
+		1535F97C195849E1007DD1A5 /* SonarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonarViewController.m; sourceTree = "<group>"; };
+		1535F97F195849F6007DD1A5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		1535F980195849F6007DD1A5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		15417DA119ADD6B00006CA5E /* tah rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tah rabbit.png"; sourceTree = "<group>"; };
+		154307AC19A32139008A079C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		154480AF19A7051E00A881AB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		154480B119A7064800A881AB /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		154480B219A7064800A881AB /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		154480B619A7066D00A881AB /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		154480B719A7066D00A881AB /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		1551F0C01967BA6F00384077 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		1551F0C11967BA6F00384077 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		1565B73819AD04EE00B18B0A /* web forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web forward.png"; sourceTree = "<group>"; };
+		1565B73919AD04EE00B18B0A /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		1565B73A19AD04EE00B18B0A /* web backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web backward.png"; sourceTree = "<group>"; };
+		1566EB6219683D7C002A5CD4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1566EB6419685233002A5CD4 /* TAHble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAHble.h; path = "../../TAH SDK/TAH Library/TAHble.h"; sourceTree = "<group>"; };
+		1566EB6519685233002A5CD4 /* TAHble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAHble.m; path = "../../TAH SDK/TAH Library/TAHble.m"; sourceTree = "<group>"; };
+		1599E442195850F80059DC2B /* TAHbleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHbleTableController.h; sourceTree = "<group>"; };
+		1599E443195850F80059DC2B /* TAHbleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHbleTableController.m; sourceTree = "<group>"; };
+		15B1A37119A673B000D9D426 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		15B1A37219A673B000D9D426 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		15B1A37719A674D200D9D426 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		15B1A37819A674D200D9D426 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		15B1A37A19A674DA00D9D426 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		15B1A37B19A674DA00D9D426 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15013A181937005600A1EA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566EB6319683D7C002A5CD4 /* AudioToolbox.framework in Frameworks */,
+				15013A211937005600A1EA7B /* CoreGraphics.framework in Frameworks */,
+				15013A231937005600A1EA7B /* UIKit.framework in Frameworks */,
+				15013A1F1937005600A1EA7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15013A3C1937005600A1EA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15013A411937005600A1EA7B /* XCTest.framework in Frameworks */,
+				15013A431937005600A1EA7B /* UIKit.framework in Frameworks */,
+				15013A421937005600A1EA7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15013A121937005600A1EA7B = {
+			isa = PBXGroup;
+			children = (
+				15013A241937005600A1EA7B /* TAH Sensor */,
+				1535F95E1958490A007DD1A5 /* Sonar View Controller */,
+				1535F95F19584928007DD1A5 /* Temperature View Controller */,
+				1535F96019584938007DD1A5 /* Touch View Controller */,
+				1535F96119584943007DD1A5 /* Light View Controller */,
+				1535F96319584953007DD1A5 /* Rain View Controller */,
+				1535F9621958494A007DD1A5 /* Wind View Controller */,
+				1535F9641958495A007DD1A5 /* Motion View Controller */,
+				1535F96519584960007DD1A5 /* Moisture View Controller */,
+				154480B519A7065600A881AB /* Social View Controller */,
+				15B1A37519A674AC00D9D426 /* Media View Controller */,
+				15B1A37619A674BD00D9D426 /* Settings View Controller */,
+				1599E441195850E60059DC2B /* TAH ble Table View */,
+				1599E445195851530059DC2B /* TAH Library */,
+				1535F97E195849E9007DD1A5 /* Custom Cell */,
+				15013A461937005600A1EA7B /* TAH SensorTests */,
+				15013A1D1937005600A1EA7B /* Frameworks */,
+				15013A1C1937005600A1EA7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15013A1C1937005600A1EA7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15013A1B1937005600A1EA7B /* TAH Sensor.app */,
+				15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15013A1D1937005600A1EA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1566EB6219683D7C002A5CD4 /* AudioToolbox.framework */,
+				15013A1E1937005600A1EA7B /* Foundation.framework */,
+				15013A201937005600A1EA7B /* CoreGraphics.framework */,
+				15013A221937005600A1EA7B /* UIKit.framework */,
+				15013A401937005600A1EA7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15013A241937005600A1EA7B /* TAH Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				15013A2D1937005600A1EA7B /* AppDelegate.h */,
+				15013A2E1937005600A1EA7B /* AppDelegate.m */,
+				152D9CB719AC9D5600AAAA8D /* Main_iPhone3.5.storyboard */,
+				1535F8FA195847B7007DD1A5 /* Main_iPhone.storyboard */,
+				15013A331937005600A1EA7B /* Main_iPad.storyboard */,
+				1551F0C01967BA6F00384077 /* HomeViewController.h */,
+				1551F0C11967BA6F00384077 /* HomeViewController.m */,
+				15013A391937005600A1EA7B /* Images.xcassets */,
+				15013A251937005600A1EA7B /* Supporting Files */,
+			);
+			path = "TAH Sensor";
+			sourceTree = "<group>";
+		};
+		15013A251937005600A1EA7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1535F8FC195847F1007DD1A5 /* Image Files */,
+				15013A261937005600A1EA7B /* TAH Sensor-Info.plist */,
+				15013A271937005600A1EA7B /* InfoPlist.strings */,
+				15013A2A1937005600A1EA7B /* main.m */,
+				15013A2C1937005600A1EA7B /* TAH Sensor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15013A461937005600A1EA7B /* TAH SensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				15013A4C1937005600A1EA7B /* TAH_SensorTests.m */,
+				15013A471937005600A1EA7B /* Supporting Files */,
+			);
+			path = "TAH SensorTests";
+			sourceTree = "<group>";
+		};
+		15013A471937005600A1EA7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15013A481937005600A1EA7B /* TAH SensorTests-Info.plist */,
+				15013A491937005600A1EA7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1535F8FC195847F1007DD1A5 /* Image Files */ = {
+			isa = PBXGroup;
+			children = (
+				15417DA119ADD6B00006CA5E /* tah rabbit.png */,
+				1565B73819AD04EE00B18B0A /* web forward.png */,
+				1565B73919AD04EE00B18B0A /* reload.png */,
+				1565B73A19AD04EE00B18B0A /* web backward.png */,
+				152D9CB919ACA8AB00AAAA8D /* tah rabbit small.png */,
+				154480B119A7064800A881AB /* fb.png */,
+				154480B219A7064800A881AB /* twitter.png */,
+				154480AF19A7051E00A881AB /* share.png */,
+				15B1A37119A673B000D9D426 /* settings.png */,
+				15B1A37219A673B000D9D426 /* youtube.png */,
+				1522C82419A6003E00ABAC1C /* rainstoppedsmall.png */,
+				1522C82319A6003E00ABAC1C /* rainsmall 3.png */,
+				1522C82519A6003E00ABAC1C /* rainsmall 2.png */,
+				1522C82619A6003E00ABAC1C /* rainsmall 1.png */,
+				151DFE0619A4B77D00996EAE /* set.png */,
+				154307AC19A32139008A079C /* home.png */,
+				1535F8FD19584809007DD1A5 /* dark.jpg */,
+				1535F8FE19584809007DD1A5 /* soilsmall.png */,
+				1535F8FF19584809007DD1A5 /* windsmall.png */,
+				1535F90019584809007DD1A5 /* rainsmall.png */,
+				1535F90119584809007DD1A5 /* lig.png */,
+				1535F90219584809007DD1A5 /* tou.png */,
+				1535F90319584809007DD1A5 /* mot.png */,
+				1535F90419584809007DD1A5 /* t3.png */,
+				1535F90519584809007DD1A5 /* t4.png */,
+				1535F90619584809007DD1A5 /* t2.png */,
+				1535F90719584809007DD1A5 /* t1.png */,
+				1535F90819584809007DD1A5 /* wall.png */,
+				1535F90919584809007DD1A5 /* distance.png */,
+				1535F90A19584809007DD1A5 /* man.png */,
+				1535F90B19584809007DD1A5 /* son.png */,
+				1535F90C19584809007DD1A5 /* flurowhite.png */,
+				1535F90D19584809007DD1A5 /* drop.png */,
+				1535F90E19584809007DD1A5 /* therma.png */,
+				1535F90F19584809007DD1A5 /* flurowhite3.png */,
+				1535F91019584809007DD1A5 /* flurowhite2.png */,
+				1535F91219584809007DD1A5 /* nighticon.png */,
+				1535F91319584809007DD1A5 /* dayicon.png */,
+				1535F91419584809007DD1A5 /* night.png */,
+				1535F91519584809007DD1A5 /* day.png */,
+				1535F91619584809007DD1A5 /* rain.png */,
+				1535F91719584809007DD1A5 /* wind.png */,
+				1535F91819584809007DD1A5 /* soil.png */,
+				1535F91919584809007DD1A5 /* light.png */,
+				1535F91A19584809007DD1A5 /* touch.png */,
+				1535F91B19584809007DD1A5 /* motion.png */,
+				1535F91C19584809007DD1A5 /* sonar.png */,
+				1535F91D19584809007DD1A5 /* temp.png */,
+				1535F91E19584809007DD1A5 /* menu.png */,
+				1535F92319584809007DD1A5 /* mail.png */,
+				1535F92719584809007DD1A5 /* tah.png */,
+			);
+			name = "Image Files";
+			sourceTree = "<group>";
+		};
+		1535F95E1958490A007DD1A5 /* Sonar View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F97B195849E1007DD1A5 /* SonarViewController.h */,
+				1535F97C195849E1007DD1A5 /* SonarViewController.m */,
+			);
+			name = "Sonar View Controller";
+			sourceTree = "<group>";
+		};
+		1535F95F19584928007DD1A5 /* Temperature View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F978195849DC007DD1A5 /* TemperatureViewController.h */,
+				1535F979195849DC007DD1A5 /* TemperatureViewController.m */,
+			);
+			name = "Temperature View Controller";
+			sourceTree = "<group>";
+		};
+		1535F96019584938007DD1A5 /* Touch View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F972195849CC007DD1A5 /* TouchViewController.h */,
+				1535F973195849CC007DD1A5 /* TouchViewController.m */,
+			);
+			name = "Touch View Controller";
+			sourceTree = "<group>";
+		};
+		1535F96119584943007DD1A5 /* Light View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F975195849D2007DD1A5 /* LightViewController.h */,
+				1535F976195849D2007DD1A5 /* LightViewController.m */,
+			);
+			name = "Light View Controller";
+			sourceTree = "<group>";
+		};
+		1535F9621958494A007DD1A5 /* Wind View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F96C195849B9007DD1A5 /* WindViewController.h */,
+				1535F96D195849B9007DD1A5 /* WindViewController.m */,
+			);
+			name = "Wind View Controller";
+			sourceTree = "<group>";
+		};
+		1535F96319584953007DD1A5 /* Rain View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F96F195849BF007DD1A5 /* RainViewController.h */,
+				1535F970195849BF007DD1A5 /* RainViewController.m */,
+			);
+			name = "Rain View Controller";
+			sourceTree = "<group>";
+		};
+		1535F9641958495A007DD1A5 /* Motion View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F969195849AE007DD1A5 /* MotionViewController.h */,
+				1535F96A195849AE007DD1A5 /* MotionViewController.m */,
+			);
+			name = "Motion View Controller";
+			sourceTree = "<group>";
+		};
+		1535F96519584960007DD1A5 /* Moisture View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1535F9661958499B007DD1A5 /* SoilMoistureViewController.h */,
+				1535F9671958499B007DD1A5 /* SoilMoistureViewController.m */,
+			);
+			name = "Moisture View Controller";
+			sourceTree = "<group>";
+		};
+		1535F97E195849E9007DD1A5 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1535F97F195849F6007DD1A5 /* CustomCell.h */,
+				1535F980195849F6007DD1A5 /* CustomCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		154480B519A7065600A881AB /* Social View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				154480B619A7066D00A881AB /* SocialViewController.h */,
+				154480B719A7066D00A881AB /* SocialViewController.m */,
+			);
+			name = "Social View Controller";
+			sourceTree = "<group>";
+		};
+		1599E441195850E60059DC2B /* TAH ble Table View */ = {
+			isa = PBXGroup;
+			children = (
+				1599E442195850F80059DC2B /* TAHbleTableController.h */,
+				1599E443195850F80059DC2B /* TAHbleTableController.m */,
+			);
+			name = "TAH ble Table View";
+			sourceTree = "<group>";
+		};
+		1599E445195851530059DC2B /* TAH Library */ = {
+			isa = PBXGroup;
+			children = (
+				1566EB6419685233002A5CD4 /* TAHble.h */,
+				1566EB6519685233002A5CD4 /* TAHble.m */,
+			);
+			name = "TAH Library";
+			sourceTree = "<group>";
+		};
+		15B1A37519A674AC00D9D426 /* Media View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15B1A37A19A674DA00D9D426 /* MediaViewController.h */,
+				15B1A37B19A674DA00D9D426 /* MediaViewController.m */,
+			);
+			name = "Media View Controller";
+			sourceTree = "<group>";
+		};
+		15B1A37619A674BD00D9D426 /* Settings View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15B1A37719A674D200D9D426 /* SettingsViewController.h */,
+				15B1A37819A674D200D9D426 /* SettingsViewController.m */,
+			);
+			name = "Settings View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15013A1A1937005600A1EA7B /* TAH Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH Sensor" */;
+			buildPhases = (
+				15013A171937005600A1EA7B /* Sources */,
+				15013A181937005600A1EA7B /* Frameworks */,
+				15013A191937005600A1EA7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TAH Sensor";
+			productName = "TAH Sensor";
+			productReference = 15013A1B1937005600A1EA7B /* TAH Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15013A3E1937005600A1EA7B /* TAH SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH SensorTests" */;
+			buildPhases = (
+				15013A3B1937005600A1EA7B /* Sources */,
+				15013A3C1937005600A1EA7B /* Frameworks */,
+				15013A3D1937005600A1EA7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15013A451937005600A1EA7B /* PBXTargetDependency */,
+			);
+			name = "TAH SensorTests";
+			productName = "TAH SensorTests";
+			productReference = 15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15013A131937005600A1EA7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dhirajjadhao;
+				TargetAttributes = {
+					15013A1A1937005600A1EA7B = {
+						DevelopmentTeam = DUXG8V348H;
+					};
+					15013A3E1937005600A1EA7B = {
+						TestTargetID = 15013A1A1937005600A1EA7B;
+					};
+				};
+			};
+			buildConfigurationList = 15013A161937005600A1EA7B /* Build configuration list for PBXProject "TAH Sensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15013A121937005600A1EA7B;
+			productRefGroup = 15013A1C1937005600A1EA7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15013A1A1937005600A1EA7B /* TAH Sensor */,
+				15013A3E1937005600A1EA7B /* TAH SensorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15013A191937005600A1EA7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1535F93019584809007DD1A5 /* t4.png in Resources */,
+				1535F94619584809007DD1A5 /* motion.png in Resources */,
+				1535F92F19584809007DD1A5 /* t3.png in Resources */,
+				152D9CB819AC9D5600AAAA8D /* Main_iPhone3.5.storyboard in Resources */,
+				1522C82819A6003E00ABAC1C /* rainstoppedsmall.png in Resources */,
+				1535F94219584809007DD1A5 /* wind.png in Resources */,
+				1535F93919584809007DD1A5 /* therma.png in Resources */,
+				151DFE0719A4B77D00996EAE /* set.png in Resources */,
+				1535F93A19584809007DD1A5 /* flurowhite3.png in Resources */,
+				1535F94019584809007DD1A5 /* day.png in Resources */,
+				1535F92C19584809007DD1A5 /* lig.png in Resources */,
+				1535F8FB195847B7007DD1A5 /* Main_iPhone.storyboard in Resources */,
+				1535F93F19584809007DD1A5 /* night.png in Resources */,
+				1522C82919A6003E00ABAC1C /* rainsmall 2.png in Resources */,
+				1522C82719A6003E00ABAC1C /* rainsmall 3.png in Resources */,
+				1535F94519584809007DD1A5 /* touch.png in Resources */,
+				1535F92A19584809007DD1A5 /* windsmall.png in Resources */,
+				1535F94919584809007DD1A5 /* menu.png in Resources */,
+				1535F93619584809007DD1A5 /* son.png in Resources */,
+				1535F93E19584809007DD1A5 /* dayicon.png in Resources */,
+				1535F94119584809007DD1A5 /* rain.png in Resources */,
+				1565B73B19AD04EE00B18B0A /* web forward.png in Resources */,
+				1535F93219584809007DD1A5 /* t1.png in Resources */,
+				1535F93119584809007DD1A5 /* t2.png in Resources */,
+				1535F93419584809007DD1A5 /* distance.png in Resources */,
+				1535F94719584809007DD1A5 /* sonar.png in Resources */,
+				1535F92819584809007DD1A5 /* dark.jpg in Resources */,
+				1535F94319584809007DD1A5 /* soil.png in Resources */,
+				15B1A37419A673B000D9D426 /* youtube.png in Resources */,
+				154480B319A7064800A881AB /* fb.png in Resources */,
+				15B1A37319A673B000D9D426 /* settings.png in Resources */,
+				1535F92E19584809007DD1A5 /* mot.png in Resources */,
+				1535F93B19584809007DD1A5 /* flurowhite2.png in Resources */,
+				152D9CBA19ACA8AB00AAAA8D /* tah rabbit small.png in Resources */,
+				154307AD19A32139008A079C /* home.png in Resources */,
+				1535F92B19584809007DD1A5 /* rainsmall.png in Resources */,
+				1535F92919584809007DD1A5 /* soilsmall.png in Resources */,
+				1535F93519584809007DD1A5 /* man.png in Resources */,
+				1535F95219584809007DD1A5 /* tah.png in Resources */,
+				1522C82A19A6003E00ABAC1C /* rainsmall 1.png in Resources */,
+				1535F93319584809007DD1A5 /* wall.png in Resources */,
+				1535F94E19584809007DD1A5 /* mail.png in Resources */,
+				15013A351937005600A1EA7B /* Main_iPad.storyboard in Resources */,
+				1535F94419584809007DD1A5 /* light.png in Resources */,
+				1535F94819584809007DD1A5 /* temp.png in Resources */,
+				15013A3A1937005600A1EA7B /* Images.xcassets in Resources */,
+				1535F93819584809007DD1A5 /* drop.png in Resources */,
+				1535F92D19584809007DD1A5 /* tou.png in Resources */,
+				1565B73D19AD04EE00B18B0A /* web backward.png in Resources */,
+				1535F93719584809007DD1A5 /* flurowhite.png in Resources */,
+				15417DA219ADD6B00006CA5E /* tah rabbit.png in Resources */,
+				15013A291937005600A1EA7B /* InfoPlist.strings in Resources */,
+				154480B419A7064800A881AB /* twitter.png in Resources */,
+				1535F93D19584809007DD1A5 /* nighticon.png in Resources */,
+				154480B019A7051E00A881AB /* share.png in Resources */,
+				1565B73C19AD04EE00B18B0A /* reload.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15013A3D1937005600A1EA7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15013A4B1937005600A1EA7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15013A171937005600A1EA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1535F96E195849B9007DD1A5 /* WindViewController.m in Sources */,
+				15013A2F1937005600A1EA7B /* AppDelegate.m in Sources */,
+				1535F971195849BF007DD1A5 /* RainViewController.m in Sources */,
+				1566EB6619685233002A5CD4 /* TAHble.m in Sources */,
+				1535F97A195849DC007DD1A5 /* TemperatureViewController.m in Sources */,
+				1535F981195849F6007DD1A5 /* CustomCell.m in Sources */,
+				1551F0C21967BA6F00384077 /* HomeViewController.m in Sources */,
+				1535F96B195849AE007DD1A5 /* MotionViewController.m in Sources */,
+				1535F977195849D2007DD1A5 /* LightViewController.m in Sources */,
+				1535F9681958499B007DD1A5 /* SoilMoistureViewController.m in Sources */,
+				1535F974195849CC007DD1A5 /* TouchViewController.m in Sources */,
+				15013A2B1937005600A1EA7B /* main.m in Sources */,
+				15B1A37919A674D200D9D426 /* SettingsViewController.m in Sources */,
+				1599E444195850F80059DC2B /* TAHbleTableController.m in Sources */,
+				154480B819A7066D00A881AB /* SocialViewController.m in Sources */,
+				1535F97D195849E1007DD1A5 /* SonarViewController.m in Sources */,
+				15B1A37C19A674DA00D9D426 /* MediaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15013A3B1937005600A1EA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15013A4D1937005600A1EA7B /* TAH_SensorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15013A451937005600A1EA7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15013A1A1937005600A1EA7B /* TAH Sensor */;
+			targetProxy = 15013A441937005600A1EA7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15013A271937005600A1EA7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15013A281937005600A1EA7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15013A331937005600A1EA7B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15013A341937005600A1EA7B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		15013A491937005600A1EA7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15013A4A1937005600A1EA7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15013A4E1937005600A1EA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15013A4F1937005600A1EA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15013A511937005600A1EA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
+				INFOPLIST_FILE = "TAH Sensor/TAH Sensor-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15013A521937005600A1EA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
+				INFOPLIST_FILE = "TAH Sensor/TAH Sensor-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15013A541937005600A1EA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TAH Sensor.app/TAH Sensor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TAH SensorTests/TAH SensorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		15013A551937005600A1EA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TAH Sensor.app/TAH Sensor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
+				INFOPLIST_FILE = "TAH SensorTests/TAH SensorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15013A161937005600A1EA7B /* Build configuration list for PBXProject "TAH Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15013A4E1937005600A1EA7B /* Debug */,
+				15013A4F1937005600A1EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15013A511937005600A1EA7B /* Debug */,
+				15013A521937005600A1EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15013A541937005600A1EA7B /* Debug */,
+				15013A551937005600A1EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15013A131937005600A1EA7B /* Project object */;
+}
