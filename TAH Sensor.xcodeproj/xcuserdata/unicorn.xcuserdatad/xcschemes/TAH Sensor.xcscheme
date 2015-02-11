@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15013A1A1937005600A1EA7B"
-               BuildableName = "TAH Sensor.app"
-               BlueprintName = "TAH Sensor"
-               ReferencedContainer = "container:TAH Sensor.xcodeproj">
+               BuildableName = "Tah Sensor.app"
+               BlueprintName = "Tah Sensor"
+               ReferencedContainer = "container:Tah Sensor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15013A3E1937005600A1EA7B"
-               BuildableName = "TAH SensorTests.xctest"
-               BlueprintName = "TAH SensorTests"
-               ReferencedContainer = "container:TAH Sensor.xcodeproj">
+               BuildableName = "Tah Sensor.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "Tah Sensor Tests"
+               ReferencedContainer = "container:Tah Sensor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15013A1A1937005600A1EA7B"
-            BuildableName = "TAH Sensor.app"
-            BlueprintName = "TAH Sensor"
-            ReferencedContainer = "container:TAH Sensor.xcodeproj">
+            BuildableName = "Tah Sensor.app"
+            BlueprintName = "Tah Sensor"
+            ReferencedContainer = "container:Tah Sensor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15013A1A1937005600A1EA7B"
-            BuildableName = "TAH Sensor.app"
-            BlueprintName = "TAH Sensor"
-            ReferencedContainer = "container:TAH Sensor.xcodeproj">
+            BuildableName = "Tah Sensor.app"
+            BlueprintName = "Tah Sensor"
+            ReferencedContainer = "container:Tah Sensor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15013A1A1937005600A1EA7B"
-            BuildableName = "TAH Sensor.app"
-            BlueprintName = "TAH Sensor"
-            ReferencedContainer = "container:TAH Sensor.xcodeproj">
+            BuildableName = "Tah Sensor.app"
+            BlueprintName = "Tah Sensor"
+            ReferencedContainer = "container:Tah Sensor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
