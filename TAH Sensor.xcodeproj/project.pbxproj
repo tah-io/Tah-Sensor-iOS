@@ -84,7 +84,7 @@
 		1565B73D19AD04EE00B18B0A /* web backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565B73A19AD04EE00B18B0A /* web backward.png */; };
 		1566EB6319683D7C002A5CD4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1566EB6219683D7C002A5CD4 /* AudioToolbox.framework */; };
 		1566EB6619685233002A5CD4 /* TAHble.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566EB6519685233002A5CD4 /* TAHble.m */; };
-		1599E444195850F80059DC2B /* TAHbleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1599E443195850F80059DC2B /* TAHbleTableController.m */; };
+		15A99AD11A654FA30066AB4E /* TAHbleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AD01A654FA30066AB4E /* TAHbleTableController.m */; };
 		15B1A37319A673B000D9D426 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B1A37119A673B000D9D426 /* settings.png */; };
 		15B1A37419A673B000D9D426 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B1A37219A673B000D9D426 /* youtube.png */; };
 		15B1A37919A674D200D9D426 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1A37819A674D200D9D426 /* SettingsViewController.m */; };
@@ -102,21 +102,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15013A1B1937005600A1EA7B /* TAH Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TAH Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15013A1B1937005600A1EA7B /* Tah Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tah Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15013A1E1937005600A1EA7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15013A201937005600A1EA7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		15013A221937005600A1EA7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		15013A261937005600A1EA7B /* TAH Sensor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAH Sensor-Info.plist"; sourceTree = "<group>"; };
+		15013A261937005600A1EA7B /* Tah Sensor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tah Sensor-Info.plist"; sourceTree = "<group>"; };
 		15013A281937005600A1EA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15013A2A1937005600A1EA7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15013A2C1937005600A1EA7B /* TAH Sensor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAH Sensor-Prefix.pch"; sourceTree = "<group>"; };
+		15013A2C1937005600A1EA7B /* Tah Sensor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tah Sensor-Prefix.pch"; sourceTree = "<group>"; };
 		15013A2D1937005600A1EA7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15013A2E1937005600A1EA7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		15013A341937005600A1EA7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		15013A391937005600A1EA7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAH SensorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15013A3F1937005600A1EA7B /* Tah Sensor.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tah Sensor.temp_caseinsensitive_renameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15013A401937005600A1EA7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		15013A481937005600A1EA7B /* TAH SensorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAH SensorTests-Info.plist"; sourceTree = "<group>"; };
+		15013A481937005600A1EA7B /* Tah Sensor.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tah Sensor.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		15013A4A1937005600A1EA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15013A4C1937005600A1EA7B /* TAH_SensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAH_SensorTests.m; sourceTree = "<group>"; };
 		151DFE0619A4B77D00996EAE /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 		1566EB6219683D7C002A5CD4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1566EB6419685233002A5CD4 /* TAHble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAHble.h; path = "../../TAH SDK/TAH Library/TAHble.h"; sourceTree = "<group>"; };
 		1566EB6519685233002A5CD4 /* TAHble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAHble.m; path = "../../TAH SDK/TAH Library/TAHble.m"; sourceTree = "<group>"; };
-		1599E442195850F80059DC2B /* TAHbleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHbleTableController.h; sourceTree = "<group>"; };
-		1599E443195850F80059DC2B /* TAHbleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHbleTableController.m; sourceTree = "<group>"; };
+		15A99ACF1A654FA30066AB4E /* TAHbleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHbleTableController.h; sourceTree = "<group>"; };
+		15A99AD01A654FA30066AB4E /* TAHbleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHbleTableController.m; sourceTree = "<group>"; };
 		15B1A37119A673B000D9D426 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		15B1A37219A673B000D9D426 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
 		15B1A37719A674D200D9D426 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
@@ -257,8 +257,8 @@
 		15013A1C1937005600A1EA7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15013A1B1937005600A1EA7B /* TAH Sensor.app */,
-				15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */,
+				15013A1B1937005600A1EA7B /* Tah Sensor.app */,
+				15013A3F1937005600A1EA7B /* Tah Sensor.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,10 +295,10 @@
 			isa = PBXGroup;
 			children = (
 				1535F8FC195847F1007DD1A5 /* Image Files */,
-				15013A261937005600A1EA7B /* TAH Sensor-Info.plist */,
+				15013A261937005600A1EA7B /* Tah Sensor-Info.plist */,
 				15013A271937005600A1EA7B /* InfoPlist.strings */,
 				15013A2A1937005600A1EA7B /* main.m */,
-				15013A2C1937005600A1EA7B /* TAH Sensor-Prefix.pch */,
+				15013A2C1937005600A1EA7B /* Tah Sensor-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 		15013A471937005600A1EA7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15013A481937005600A1EA7B /* TAH SensorTests-Info.plist */,
+				15013A481937005600A1EA7B /* Tah Sensor.temp_caseinsensitive_renameTests-Info.plist */,
 				15013A491937005600A1EA7B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -472,8 +472,8 @@
 		1599E441195850E60059DC2B /* TAH ble Table View */ = {
 			isa = PBXGroup;
 			children = (
-				1599E442195850F80059DC2B /* TAHbleTableController.h */,
-				1599E443195850F80059DC2B /* TAHbleTableController.m */,
+				15A99ACF1A654FA30066AB4E /* TAHbleTableController.h */,
+				15A99AD01A654FA30066AB4E /* TAHbleTableController.m */,
 			);
 			name = "TAH ble Table View";
 			sourceTree = "<group>";
@@ -508,9 +508,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15013A1A1937005600A1EA7B /* TAH Sensor */ = {
+		15013A1A1937005600A1EA7B /* Tah Sensor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH Sensor" */;
+			buildConfigurationList = 15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "Tah Sensor" */;
 			buildPhases = (
 				15013A171937005600A1EA7B /* Sources */,
 				15013A181937005600A1EA7B /* Frameworks */,
@@ -520,14 +520,14 @@
 			);
 			dependencies = (
 			);
-			name = "TAH Sensor";
+			name = "Tah Sensor";
 			productName = "TAH Sensor";
-			productReference = 15013A1B1937005600A1EA7B /* TAH Sensor.app */;
+			productReference = 15013A1B1937005600A1EA7B /* Tah Sensor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15013A3E1937005600A1EA7B /* TAH SensorTests */ = {
+		15013A3E1937005600A1EA7B /* Tah Sensor Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH SensorTests" */;
+			buildConfigurationList = 15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "Tah Sensor Tests" */;
 			buildPhases = (
 				15013A3B1937005600A1EA7B /* Sources */,
 				15013A3C1937005600A1EA7B /* Frameworks */,
@@ -538,9 +538,9 @@
 			dependencies = (
 				15013A451937005600A1EA7B /* PBXTargetDependency */,
 			);
-			name = "TAH SensorTests";
+			name = "Tah Sensor Tests";
 			productName = "TAH SensorTests";
-			productReference = 15013A3F1937005600A1EA7B /* TAH SensorTests.xctest */;
+			productReference = 15013A3F1937005600A1EA7B /* Tah Sensor.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -553,14 +553,14 @@
 				ORGANIZATIONNAME = dhirajjadhao;
 				TargetAttributes = {
 					15013A1A1937005600A1EA7B = {
-						DevelopmentTeam = DUXG8V348H;
+						DevelopmentTeam = JFJ7QVPY27;
 					};
 					15013A3E1937005600A1EA7B = {
 						TestTargetID = 15013A1A1937005600A1EA7B;
 					};
 				};
 			};
-			buildConfigurationList = 15013A161937005600A1EA7B /* Build configuration list for PBXProject "TAH Sensor" */;
+			buildConfigurationList = 15013A161937005600A1EA7B /* Build configuration list for PBXProject "Tah Sensor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -573,8 +573,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15013A1A1937005600A1EA7B /* TAH Sensor */,
-				15013A3E1937005600A1EA7B /* TAH SensorTests */,
+				15013A1A1937005600A1EA7B /* Tah Sensor */,
+				15013A3E1937005600A1EA7B /* Tah Sensor Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -671,8 +671,8 @@
 				1535F974195849CC007DD1A5 /* TouchViewController.m in Sources */,
 				15013A2B1937005600A1EA7B /* main.m in Sources */,
 				15B1A37919A674D200D9D426 /* SettingsViewController.m in Sources */,
-				1599E444195850F80059DC2B /* TAHbleTableController.m in Sources */,
 				154480B819A7066D00A881AB /* SocialViewController.m in Sources */,
+				15A99AD11A654FA30066AB4E /* TAHbleTableController.m in Sources */,
 				1535F97D195849E1007DD1A5 /* SonarViewController.m in Sources */,
 				15B1A37C19A674DA00D9D426 /* MediaViewController.m in Sources */,
 			);
@@ -691,7 +691,7 @@
 /* Begin PBXTargetDependency section */
 		15013A451937005600A1EA7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15013A1A1937005600A1EA7B /* TAH Sensor */;
+			target = 15013A1A1937005600A1EA7B /* Tah Sensor */;
 			targetProxy = 15013A441937005600A1EA7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -801,14 +801,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
-				INFOPLIST_FILE = "TAH Sensor/TAH Sensor-Info.plist";
+				GCC_PREFIX_HEADER = "TAH Sensor/Tah Sensor-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TAH Sensor/Tah Sensor-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tah Sensor";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -818,14 +819,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhiraj Jadhao (GR2FA7R2GS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
-				INFOPLIST_FILE = "TAH Sensor/TAH Sensor-Info.plist";
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TAH Sensor/Tah Sensor-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TAH Sensor/Tah Sensor-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Tah Sensor";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -845,8 +847,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TAH SensorTests/TAH SensorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TAH SensorTests/Tah Sensor.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = "Tah Sensor.temp_caseinsensitive_renameTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -863,8 +865,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TAH Sensor/TAH Sensor-Prefix.pch";
-				INFOPLIST_FILE = "TAH SensorTests/TAH SensorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TAH SensorTests/Tah Sensor.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = "Tah Sensor.temp_caseinsensitive_renameTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -873,7 +875,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15013A161937005600A1EA7B /* Build configuration list for PBXProject "TAH Sensor" */ = {
+		15013A161937005600A1EA7B /* Build configuration list for PBXProject "Tah Sensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15013A4E1937005600A1EA7B /* Debug */,
@@ -882,7 +884,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH Sensor" */ = {
+		15013A501937005600A1EA7B /* Build configuration list for PBXNativeTarget "Tah Sensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15013A511937005600A1EA7B /* Debug */,
@@ -891,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "TAH SensorTests" */ = {
+		15013A531937005600A1EA7B /* Build configuration list for PBXNativeTarget "Tah Sensor Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15013A541937005600A1EA7B /* Debug */,

@@ -44,6 +44,14 @@
     [self UpdateConnectionStatusLabel];
     
     
+    ////// Retrieving Button Values
+    
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    sensorthreshold.text = [defaults objectForKey:@"SavedThresholdValue"];
+    
+    //////
+    
+    
     ///////// TAH Status Update Timer //////////
     
     RainSensorUpdatetimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(RainSensorUpdate:)
@@ -62,6 +70,24 @@
 -(void)viewWillDisappear:(BOOL)animated
 {
     [RainSensorUpdatetimer invalidate];
+    
+    // Saved Threshold Value
+    NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+    
+    
+    NSString *SavedThresholdValue = sensorthreshold.text;
+    [defaults setObject:SavedThresholdValue forKey:@"SavedThresholdValue"];
+    
+    /////
+
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    
+    return YES;
+    
 }
 
 
@@ -151,14 +177,16 @@
     NSLog(@"Rain: %@", rawDataString);
     int rawrain = [rawDataString intValue];
     
-    if (rawrain >= 900)
+    int threshold = [sensorthreshold.text intValue];
+    
+    if (rawrain >= threshold)
     {
       rainstatuslabel.text = @"It's Raining";
         
         [self cloudanimationstart];
     }
     
-    else if(rawrain < 900)
+    else if(rawrain < threshold)
     {
       rainstatuslabel.text = @"Raining Stopped";
         [cloud stopAnimating];
@@ -179,6 +207,15 @@
     else
     {
         settingsview.hidden = YES;
+        
+        // Saved Threshold Value
+        NSUserDefaults *defaults=[NSUserDefaults standardUserDefaults];
+        
+        
+        NSString *SavedThresholdValue = sensorthreshold.text;
+        [defaults setObject:SavedThresholdValue forKey:@"SavedThresholdValue"];
+        
+        /////
         
         [self valuetoRain];  // Update if any change in  Distance Unit Type
         

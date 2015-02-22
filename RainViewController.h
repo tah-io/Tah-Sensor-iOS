@@ -20,8 +20,9 @@
     IBOutlet UIImageView *cloud;
     IBOutlet UIButton *settings;
     IBOutlet UIView *settingsview;
-    
     IBOutlet UILabel *rainstatuslabel;
+    IBOutlet UITextField *sensorthreshold;
+    
     
     NSTimer *RainSensorUpdatetimer;
     
@@ -30,6 +31,7 @@
 
 @property (strong, nonatomic) CBPeripheral *peripheral;
 @property (strong, nonatomic) TAHble *sensor;
+@property (strong, nonatomic) IBOutlet UITextField *sensorthresholdset;
 
 - (IBAction)settings:(id)sender;
 @end

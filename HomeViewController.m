@@ -280,7 +280,7 @@
         
         detailViewController.sensor = self.sensor;
         
-        detailViewController.title = @"SETTINGS";
+        detailViewController.title = @"Settings";
     }
     
     
